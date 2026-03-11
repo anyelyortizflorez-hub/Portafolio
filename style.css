@@ -175,3 +175,41 @@
       opacity: 0;
       animation: fadeUp 0.8s ease 0.9s forwards;
     }
+
+     .btn-primary {
+      padding: 0.85rem 2rem;
+      background: var(--blue-400);
+      color: #fff;
+      border: none;
+      border-radius: 2px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.82rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    .btn-outline {
+      padding: 0.85rem 2rem;
+      background: transparent;
+      color: var(--text-mid);
+      border: 1px solid var(--nude-400);
+      border-radius: 2px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.82rem;
+      font-weight: 400;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      cursor: pointer;
+      text-decoration: none;
+      transition: border-color 0.3s, color 0.3s, transform 0.2s;
+    }
+
+    .btn-outline:hover {
+      border-color: var(--blue-400);
+      color: var(--blue-500);
+      transform: translateY(-2px);
+    }
