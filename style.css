@@ -1,0 +1,26 @@
+:root {
+      --nude-100: #fdf8f4;
+      --nude-200: #f5ede3;
+      --nude-300: #e8d8c8;
+      --nude-400: #d4b99a;
+      --nude-500: #b8936a;
+      --blue-100: #e8f0f7;
+      --blue-200: #c8dcf0;
+      --blue-300: #a3c4e8;
+      --blue-400: #7aadd8;
+      --blue-500: #5590c4;
+      --text-dark: #3a2e28;
+      --text-mid: #6b5d54;
+      --text-light: #9e8e84;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background-color: var(--nude-100);
+      color: var(--text-dark);
+      overflow-x: hidden;
+    }
