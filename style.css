@@ -34,4 +34,16 @@
       z-index: 0;
       opacity: 0.4;
     }
-    
+
+     nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      padding: 1.4rem 3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(253, 248, 244, 0.82);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--nude-300);
+    }
